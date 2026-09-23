@@ -1,0 +1,2 @@
+claim,evidence_type,source_url,observed_at,scope,confidence,notes
+This is a synthetic example,primary fact,,2026-09-23,tool documentation,high,not a production claim

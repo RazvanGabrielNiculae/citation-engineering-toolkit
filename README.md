@@ -32,3 +32,16 @@ The Python utilities use only the standard library. Run the relevant tool agains
 Methodology and long-form context: https://niculae.info/blog/citation-ready-definitions/
 
 Publisher: https://niculae.info/
+
+### Run it
+
+```bash
+python3 tools/check_claim_matrix.py examples/claims.csv
+python3 -m unittest discover -s tests -v
+```
+
+The negative test verifies that a primary fact without a source URL is rejected.
+
+## Related projects
+
+Use [AI Search Frameworks](https://github.com/RazvanGabrielNiculae/ai-search-frameworks) for the broader retrieval/citation model and [AI Search Measurement](https://github.com/RazvanGabrielNiculae/ai-search-measurement) when you need to record citation observations over time.
